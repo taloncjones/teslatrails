@@ -1,0 +1,22 @@
+# Repo for teslatrails.net
+
+- [ ] Conceptualize site
+  - [ ] Draft purpose of site
+  - [ ] Wireframe
+- [ ] Create database to store users, user information, posts
+  - [ ] Investigate and choose DB structure (MongoDB, Redis, SQL)
+  - [ ] Implement database
+- [ ] Develop Python backend using Flask/Django to service API requests
+  - [ ] User: Create, read, update
+    - [ ] User types? User, company/sponsor
+  - [ ] 3rd party oauth
+  - [ ] Post: Create, read, update, delete
+    - [ ] Post types? User, sponsor/market
+    - [ ] Location for photos
+  - [ ] Tagging
+- [ ] Develop React front end
+  - [ ] Home page
+  - [ ] General Forum
+    - [ ] Location Search?
+  - [ ] FAQ
+  - [ ] Market?
